@@ -1,0 +1,148 @@
+/* Basic Reset and Variables */
+:root {
+    --bg-color: #f8fafc;
+    --cv-bg: #ffffff;
+    --text-main: #334155;
+    --text-muted: #64748b;
+    --accent-color: #3b82f6;
+    --border-color: #e2e8f0;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: #1.6;
+    margin: 0;
+    padding: 2rem 1rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Container */
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--cv-bg);
+    padding: 3rem 4rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.025em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-main);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+p, li {
+    color: var(--text-muted);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--border-color);
+    margin: 1.5rem 0;
+}
+
+/* Helper italics for dates/roles */
+em {
+    font-style: italic;
+    color: #94a3b8;
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Controls */
+.controls {
+    max-width: 800px;
+    margin: 0 auto 1.5rem auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+    background-color: #2563eb;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* Print Styles - crucial for PDF generation */
+@media print {
+    body {
+        background-color: white;
+        padding: 0;
+    }
+    
+    .cv-container {
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .no-print {
+        display: none !important;
+    }
+    
+    h2 {
+        border-bottom-color: #cbd5e1; /* softer color for print */
+    }
+    
+    a {
+        color: var(--text-main);
+        text-decoration: none;
+    }
+}

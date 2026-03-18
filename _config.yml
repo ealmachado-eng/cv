@@ -1,0 +1,19 @@
+title: My Online CV
+description: "A professional CV built with Jekyll and GitHub Pages."
+author:
+  name: Your Name
+  email: your.email@example.com
+
+# Build settings
+theme: false # Using our own custom design
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
