@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online CV - Your Name</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- html2pdf library for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Modern font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="controls no-print">
+        <button id="download-pdf-btn" class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+            </svg>
+            Download PDF
+        </button>
+    </div>
+
+    <main id="cv-content" class="cv-container">
+        <h1 id="your-name">Your Name</h1>
+<p><strong>Professional Title</strong> | your.email@example.com | <a href="https://linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a></p>
+
+<hr />
+
+<h2 id="profile">Profile</h2>
+<p>A highly motivated professional with experience in building awesome things. Passionate about clean code, good design, and solving complex problems.</p>
+
+<h2 id="experience">Experience</h2>
+
+<h3 id="software-engineer---tech-company-xyz">Software Engineer - Tech Company XYZ</h3>
+<p><em>Jan 2020 - Present</em></p>
+<ul>
+  <li>Developed modern web applications using the latest web standards.</li>
+  <li>Reduced load times by 40% through aggressive caching and code splitting.</li>
+  <li>Led a team of 3 developers in delivering key product features.</li>
+</ul>
+
+<h3 id="junior-developer---startup-abc">Junior Developer - Startup ABC</h3>
+<p><em>Jun 2018 - Dec 2019</em></p>
+<ul>
+  <li>Assisted in the migration from a monolithic architecture to microservices.</li>
+  <li>Wrote extensive unit tests, increasing coverage from 50% to 85%.</li>
+</ul>
+
+<h2 id="education">Education</h2>
+
+<h3 id="bs-in-computer-science---university-of-state">B.S. in Computer Science - University of State</h3>
+<p><em>2014 - 2018</em></p>
+
+<h2 id="skills">Skills</h2>
+<ul>
+  <li><strong>Languages:</strong> JavaScript, Python, HTML/CSS</li>
+  <li><strong>Frameworks:</strong> React, Node.js, Jekyll</li>
+  <li><strong>Tools:</strong> Git, Docker, GitHub Actions</li>
+</ul>
+
+    </main>
+
+    <script src="/assets/js/pdf.js"></script>
+</body>
+</html>
