@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         downloadBtn.addEventListener("click", function () {
             // Options for the PDF generation
             const opt = {
-                margin:       10, // Margin in mm. Array [top, left, bottom, right] also works
+                margin:       [5, 5, 5, 5], // Thinner margins in mm [top, left, bottom, right]
                 filename:     'my-cv.pdf',
                 image:        { type: 'jpeg', quality: 0.98 },
                 html2canvas:  { scale: 2, useCORS: true },

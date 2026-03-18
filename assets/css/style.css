@@ -119,7 +119,19 @@ em {
     transform: translateY(1px);
 }
 
-/* Print Styles - crucial for PDF generation */
+/* PDF Generation Overrides (Shrinks content to fit fewer pages) */
+.pdf-generating {
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+}
+.pdf-generating h1 { font-size: 1.8rem !important; margin-bottom: 0.2rem !important; }
+.pdf-generating h2 { font-size: 1.2rem !important; margin-top: 1rem !important; margin-bottom: 0.5rem !important; padding-bottom: 0.2rem !important; }
+.pdf-generating h3 { font-size: 1.05rem !important; margin-top: 0.8rem !important; margin-bottom: 0.1rem !important; }
+.pdf-generating p, .pdf-generating li { margin-bottom: 0.2rem !important; }
+.pdf-generating hr { margin: 0.8rem 0 !important; }
+.pdf-generating em { font-size: 0.85rem !important; margin-bottom: 0.2rem !important; }
+
+/* Print Styles - crucial for browser printing */
 @media print {
     body {
         background-color: white;
