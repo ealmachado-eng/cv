@@ -1,8 +1,8 @@
 title: My Online CV
 description: "A professional CV built with Jekyll and GitHub Pages."
 author:
-  name: Your Name
-  email: your.email@example.com
+  name: Eduardo Machado
+  email: [EMAIL_ADDRESS]
 
 # Build settings
 theme: false # Using our own custom design
