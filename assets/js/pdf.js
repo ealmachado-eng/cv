@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Options for the PDF generation
             const opt = {
                 margin:       [5, 5, 5, 5], // Thinner margins in mm [top, left, bottom, right]
-                filename:     'my-cv.pdf',
+                filename:     'Eduardo_Machado_CV.pdf',
                 image:        { type: 'jpeg', quality: 0.98 },
                 html2canvas:  { scale: 2, useCORS: true },
                 jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }

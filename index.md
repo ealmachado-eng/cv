@@ -8,9 +8,9 @@ layout: default
 ---
 
 ## Profile
-With over 20 years of experience in the technology sector, I specialize in Identity and Access Management (IAM/IGA), Software Engineering, Artificial Intelligence (AI), and Platform Engineering. My expertise spans Information Security, automation, and cloud infrastructure operations.
+With over 20 years of professional experience and more than 10 years of dedicated experience in the IT and Security sectors, I have built a strong expertise in Identity and Access Management (IAM/IGA), Software Engineering projects, Artificial Intelligence (AI), and Platform Engineering. My expertise spans Information Security, automation, and cloud infrastructure operations.
 
-I have a proven track record of leading and collaborating on strategic initiatives, including architecting authentication and authorization solutions (Microsoft Entra ID and various CIAM/Internal IdPs), developing custom SailPoint IIQ integrations, and automating identity governance workflows and API Gateways. Furthermore, I design scalable infrastructure using custom Terraform modules and build robust automation scripts utilizing PowerShell, Bash, Python, and the Azure CLI.
+I have a proven track record of leading and collaborating on strategic initiatives, including architecting authentication and authorization solutions (Microsoft Entra ID and various CIAM/Internal IdPs), developing custom SailPoint IIQ integrations, and automating identity governance workflows and API Gateways. Furthermore, I design scalable infrastructure using custom Terraform modules, build robust automation scripts utilizing PowerShell, Bash, Python, and the Azure CLI, and develop specialized software tools (such as customized TUI and ITSM apps) to streamline enterprise operations.
 
 ## Experience
 
@@ -22,41 +22,47 @@ I have a proven track record of leading and collaborating on strategic initiativ
 - Create new Terraform module documentation standard;
 
 **Achievements:**
-- Successfully improved Gitlab Terraform pipelines to streamline deployments.
-- Analyzed and reengineered OPA policies, successfully minimizing false-positives/negatives to ensure strict compliance with standards.
+- Engineered and documented enterprise-grade Terraform (TFE) modules for Azure and AWS, establishing a new organizational documentation standard.
+- Architected a comprehensive Evidence Bundle solution.
+- Analyzed OPA policies to minimize false-positives/negatives to ensure compliance with standards.
 
 **Tech Stack:** Terraform (TFE), AWS, Azure, OPA, GitLab CI/CD
 
 **Client: American Council on Education - ACE**
 - Plan and execute Microsoft Entra External ID config/deployment on portals and apps;
-- Build deployment / automation scripts, using PowerShell / Azure CLI / Bicep (IaC);
+- Build / deployment of automation scripts, using PowerShell / Azure CLI / Bicep (IaC);
 
 **Achievements:**
+- Built a custom Text User Interface (TUI) application to automate API promotions across higher environments, significantly accelerating the deployment lifecycle.
 - Created and delivered all foundational documentation and high-level architecture diagrams for the Entra ID integration.
+- Successfully implemented and deployed secure authentication (OIDC / SSO) for two organizational portals using Microsoft Entra External ID.
 
-**Tech Stack:** Microsoft Entra External ID, PowerShell, Azure CLI, Bicep (IaC)
+**Tech Stack:** Microsoft Entra External ID, PowerShell, Azure CLI, Bicep (IaC), Azure API Management
 
-### Information Security Specialist (Projects) | Prudential do Brasil | Mar 2023 - May 2025
+### InfoSec Specialist (Projects) | Prudential do Brasil | Mar 2023 - May 2025
 
 - Act as Technical Lead and consultant in infrastructure, software engineering, and AI projects;
 - Mediate communications between cross-project teams, business areas, and global IT/InfoSec teams.
 
 **Achievements:**
-- Proposed and led the successful implementation of new structural solutions, projects, and processes for the global Information Security division.
+- Led the implementation of robust security controls for the company's most critical and sensitive customer-facing applications.
 - Championed and significantly strengthened the "Security by Design" culture across all enterprise engineering teams.
 
-**Tech Stack:** Cloud Infrastructure Security, Artificial Intelligence (AI), Security by Design
+**Tech Stack:** Cloud Infrastructure Security, Artificial Intelligence (AI), Security by Design, SAML/OIDC authentication
 
 ### IAM Security Engineer | WEX | Nov 2021 - Mar 2023
 
-- Lead integration projects for the identity management platform (Sailpoint IIQ) with company applications, platforms, databases, and systems;
+- Technical Lead for integration projects of the identity governance platform (Sailpoint IIQ) with company applications, platforms, databases, APIs and systems;
 - Develop integrations (Applications) for the Sailpoint IIQ platform;
-- Manage the Sailpoint IIQ platform and its administrative infrastructure;
+- Manage the Sailpoint IIQ platform and its infrastructure;
 
 **Achievements:**
-- Designed and proposed major new solutions, architectures, and tools that measurably increased enterprise security levels and IAM efficiency.
+- Led the technical integration of the SailPoint IIQ identity governance platform across enterprise applications, databases, APIs and systems, establishing a unified identity framework.
+- Developed custom IIQ integrations and successfully managed the platform's core infrastructure to ensure scalable and secure identity lifecycle operations.
 
 **Tech Stack:** SailPoint IIQ (IGA), Identity and Access Management (IAM), Systems Integration
+
+<div class="html2pdf__page-break" style="page-break-before: always;"></div>
 
 ### Information Security Specialist | ESSOR Seguros S.A. | Jun 2021 - Nov 2021
 
@@ -67,6 +73,7 @@ I have a proven track record of leading and collaborating on strategic initiativ
 
 **Achievements:**
 - Developed and implemented company-wide security policies and standards, successfully disseminating a strong security mindset across all departments.
+- Deployed CrowdStrike EDR across all enterprise servers, significantly enhancing threat detection and overall endpoint security posture.
 
 **Tech Stack:** AppSec, Security Governance, Vulnerability Management, Risk Analysis, Compliance
 
@@ -80,7 +87,7 @@ I have a proven track record of leading and collaborating on strategic initiativ
 - Led area specialists in successfully implementing phase 1 of the critical enterprise anti-ransomware plan and adapting the endpoint security platform.
 - Successfully automated multiple IAM processes, significantly optimizing the identity lifecycle.
 
-**Tech Stack:** Endpoint Security, Anti-Ransomware, Identity Lifecycle Automation, Microsoft Teams (ChatOps)
+**Tech Stack:** Endpoint Security, Anti-Ransomware, IAM, Identity Lifecycle Automation, Microsoft Teams (ChatOps)
 
 ### Revenue Analyst (Data Engineering and Analysis) | Oi S.A | Aug 2017 - Oct 2019
 
@@ -102,7 +109,7 @@ I have a proven track record of leading and collaborating on strategic initiativ
 
 **Tech Stack:** C, C#, JavaScript, TypeScript, REST APIs, Algorithmic Trading Platforms
 
-### Career and Remuneration Manager | Eletrobras | Jun 2006 - Jan 2009
+### Career and Compensation Manager | Eletrobras | Jun 2006 - Jan 2009
 
 - Manage roles, remuneration, career path, and performance evaluation for the holding and its subsidiaries;
 - Provide technical support to the Strategic Planning and Corporate Governance Committees, as well as the Eletrobras System Board of Directors Committee.
@@ -111,20 +118,26 @@ I have a proven track record of leading and collaborating on strategic initiativ
 - Led the company's Corporate University as substitute rector, overseeing broad organizational education.
 - Successfully implemented and managed HR performance indicators and projects to standardize operations across the Eletrobras System.
 
-### Process Analyst | Eletrobras | Oct 2002 - Jun 2006
+### Business Process Analyst | Eletrobras | Oct 2002 - Jun 2006
 
 - Map and analyze processes, as well as controls required by Sarbanes-Oxley (SOX);
 
 **Achievements:**
 - Developed, maintained, and operationalized core company standards and compliance procedures.
 
+<div class="html2pdf__page-break" style="page-break-before: always;"></div>
+
 ### Information Security and Standards Analyst | Losango | Sep 2000 - Oct 2002
 
-- Develop and maintain the custom IAM service management application;
+- Develop and maintain custom IAM service management applications;
+- Design and implement tools to organize and streamline the IAM ticket queue.
 
 **Achievements:**
+- Built and successfully deployed a custom "Mini ITSM" platform to organize the IAM ticket queue, significantly accelerating request resolution and improving operational efficiency.
 - Designed and executed strategic action plans that successfully improved the organization's information security processes.
 - Authored and maintained fundamental company security standards and procedures.
+
+<div style="height: 20px;"></div>
 
 ## Education
 
@@ -132,11 +145,13 @@ I have a proven track record of leading and collaborating on strategic initiativ
 
 ### Bachelor's Degree in Business Administration - PUC-Rio
 
+<div style="height: 20px;"></div>
+
 ## Skills
 - **Identity & Access Management (IAM):** Microsoft Entra ID, Entra External ID (CIAM), SailPoint IIQ (IGA), SSO, OIDC, OAuth2, SAML, RBAC, ABAC, PAM
-- **Security & Governance:** AppSec, Security by Design, Risk Analysis, Endpoint Security, Policies, Standards
+- **Security & Governance:** AppSec, Security by Design, Risk Analysis, Endpoint Security (CrowdStrike EDR), Policies, Standards, OPA
 - **Cloud & Infrastructure:** Terraform, AWS, Azure, Azure CLI, AWS CLI, Bicep (IaC)
-- **APIs & Integrations:** REST, SCIM, GraphQL
-- **DevOps & Tools:** Git, GitLab CI/CD, Github CI/CD
+- **APIs & Integrations:** REST, SCIM, GraphQL, Azure API Management
+- **DevOps & Tools:** Git, GitLab CI/CD, Github CI/CD, ITSM Platforms
 - **Programming & Scripting:** PowerShell, Python, Bash, SQL and other languages such as C# and Java
 - **Data & Analytics:** Advanced Excel, SQL Server, Power BI, Power Query, Data Engineering
